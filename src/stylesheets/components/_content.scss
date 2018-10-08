@@ -1,0 +1,10 @@
+.content {
+  max-width: 50%;
+  margin: 0 auto;
+
+  &__section {
+    font-size: 20px;
+    padding: 12rem 1rem;
+    border-bottom: 1px solid #000;
+  }
+}

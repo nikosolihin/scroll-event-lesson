@@ -1,0 +1,23 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 0 17rem;
+  background: $white;
+  border-bottom: 1px solid $gray-200;
+
+  &__link {
+    color: $gray-500;
+    font-size: $font-size-large;
+    padding: 2rem;
+    transition: color .2s ease-in-out;
+
+    &--active {
+      color: $red;
+      text-decoration: underline;
+    }
+  }
+}

@@ -1,0 +1,11 @@
+.button {
+  padding: 10px;
+
+  &__label {
+    color: white;
+  }
+
+  &--large {
+    padding: 20px;
+  }
+}
